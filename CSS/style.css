@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+/* body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+} */
+
+/* Header Style */
+.header-wrapper {
+  /* overflow: hidden; */
+  background: black;
+  color: #fff;
+  font-weight: 200;
+  font-size: 17px;
+  width: 100%;
+  position: fixed;
+  height: 48px;
+}
+.header-wrapper ul {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.header-wrapper .internal-wrapper {
+  width: 100%;
+  /* width: 980px; */
+  padding: 0 22px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1024px;
+}
+.header-wrapper img {
+  width: 14px;
+}
+.header-wrapper .header-links-wrapper ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-wrapper ul {
+  list-style: none;
+}
+.header-wrapper .header-links-wrapper ul li {
+  display: inline-block;
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
+  font-size: 12px;
+}
+.header-wrapper .header-links-wrapper ul li:hover {
+  opacity: 1;
+}
+.logo-link,
+.search-link,
+.cart-link {
+  width: 18px;
+  display: block;
+}
+.header-wrapper .header-links-wrapper ul li.logo-link {
+  padding: 12px 0 10px;
+}
+.header-wrapper .header-links-wrapper ul li.search-link {
+  padding: 14px 0 8px;
+}
+.header-wrapper .header-links-wrapper ul li.cart-link {
+  padding: 12px 0 10px;
+}
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  font-size: 0.65em;
+}
+.footer-wrapper .internal-wrapper {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 17px 0 20px;
+  font-size: 12px;
+}
+.upper-text-container a {
+  text-decoration: none;
+  color: #515154;
+}
+.upper-text-container a:hover {
+  text-decoration: underline;
+}
+.footer-links-wrapper {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-top: 20px;
+  font-size: 12px;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.footer-wrapper ul li {
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+.footer-links-wrapper a {
+  color: #515154;
+  text-decoration: none;
+}
+.footer-links-wrapper a:hover {
+  text-decoration: underline;
+}
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.my-apple-wrapper {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.copyright-wrapper {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0 20px;
+}
+.footer-links-terms ul li {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0px;
+}
+.footer-links-terms ul li a {
+  text-decoration: none;
+  color: #515154;
+}
+.footer-links-terms ul li a:hover {
+  text-decoration: underline;
+}
+.footer-country {
+  display: inline-block;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: top;
+}
+/* main-highlight */
+.main-hightlight-wrapper {
+  background-image: url("../Resource/images/iPhone-15-Pro\ -\ Copy.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  padding: 65px 20px 0px;
+}
+
+.links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+.links-wrapper ul li a:hover {
+  text-decoration: underline;
+}
+
+/* second-highlight */
+
+.second-hightlight-wrapper {
+  /* background-image: url("../Resource/images/iPhone-15.jpg"); */
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 65px 20px;
+}
+
+.links-wrapper ul li a:hover {
+  text-decoration: underline;
+}
+
+/* third-highlight */
+
+.third-hightlight-wrapper {
+  background-image: url("../Resource/images/Watch-series-9.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 20px;
+}
+
+.links-wrapper ul li a:hover {
+  text-decoration: underline;
+}
+/* left-side-wrappert */
+
+.left-side-wrapper {
+  background-image: url("../Resource/iPhone\ 15.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 65px 20px;
+  color: #1d1d1f;
+}
+
+.links-wrapper ul li a:hover {
+  text-decoration: underline;
+}
+
+/*Fourth Highlight Section */
+
+.left-side-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 54px;
+}
+.fourth-heghlight-wrapper .left-side-wrapper {
+  background-image: url("../Resource/images/watch2.jpg");
+}
+.right-side-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 54px;
+}
+.fourth-heghlight-wrapper .right-side-wrapper {
+  background-image: url("../Resource/images/watch3.jpg");
+}
+.description-wraper {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/*Fivth Highlight Section */
+
+.fifth-heghlight-wrapper .left-side-wrapper {
+  background-image: url("../Resource/images/shop-iphone.jpg");
+  background-color: #fafafa;
+}
+.fifth-heghlight-wrapper .right-side-wrapper {
+  background-image: url("../Resource/images/phone-trade.jpg");
+}
+.product-title-small {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+/*sixth Highlight Section */
+
+.sixth-heghlight-wrapper .left-side-wrapper {
+  background-image: url("../Resource/images/airpods-pro.jpg");
+  background-color: #fafafa;
+  color: #fff;
+}
+.sixth-heghlight-wrapper .right-side-wrapper {
+  background-image: url("../Resource/images/card.jpg");
+}
+.product-title-small {
+  font-weight: 700;
+  font-size: 45px;
+}
+.container {
+  max-width: 100% !important;
+}
+
+@media (min-width: 768px) {
+  .main-hightlight-wrapper {
+    background-image: url("../Resource/images/iPhone-15-Pro.jpg");
+  }
+
+  .fourth-heghlight-wrapper {
+    font-size: 16px;
+  }
+
+  .title-wraper {
+    font-size: 30px;
+  }
+  .description-wrapper {
+    font-size: 20px;
+  }
+
+  .main-hightlight-wrapper .title-wraper,
+  .second-hightlight-wrapper .title-wraper {
+    font-size: 50px;
+  }
+  .main-hightlight-wrapper .description-wraper,
+  .second-hightlight-wrapper .description-wraper {
+    font-size: 24px;
+  }
+
+}
+/* @media (min-width: 992px) {
+  .container {
+    max-width: 1260px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1410px;
+  }
+} */
+@media (min-width: 1400px) {
+  .main-hightlight-wrapper .title-wraper,
+  .second-hightlight-wrapper .title-wraper {
+    font-size: 56px;
+  }
+  .main-hightlight-wrapper .description-wraper,
+  .second-hightlight-wrapper .description-wraper {
+    font-size: 28px;
+  }
+  /* .container {
+    max-width: 3000px;
+  } */
+}
